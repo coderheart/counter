@@ -1,0 +1,114 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*Default css*/
+
+.cir{
+    height: 75px;
+    width: 75px;
+    background-color:#5C93C8;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    display: inline-block;
+}
+.rount{
+background-color: dodgerblue;
+border-radius: 50%;
+border: 3px solid #fff;
+display: inline-block;
+height: 55px;
+width: 55px;
+line-height: 2;
+margin-left: 10px;
+position: absolute;
+margin: 10px;
+}
+#chart-icon{
+   font-size: 35px; 
+    color: aquamarine;
+    vertical-align: middle;
+    position: relative;
+    margin: 7px;
+}
+.num{
+   display: inline-block;
+    position: absolute;
+    text-align: right;
+    margin-left: 80px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* progress
+*/
+.demo {
+ /* max-width: 960px;
+  margin: 150px auto;*/
+}
+
+.demo > div {
+  float: left;
+  margin: 20px;
+
+}
+.perc{
+	margin-left: -9px;
+	line-height: 80px !important;
+}
+
+
+#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
